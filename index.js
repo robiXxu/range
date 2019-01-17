@@ -1,6 +1,6 @@
 "use strict";
 
-const prefix = "[rangejs]:";
+const prefix = "[pyrange]:";
 const [defaultStart, defaultStep] = [0, 1];
 
 const validateArgs = (args) => {

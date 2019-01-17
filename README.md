@@ -1,18 +1,18 @@
-# range
+# pyrange
 Javascript version of Python range
 
 ### Install
 ```
-npm install rangejs
+npm install pyrange
 ```
 
 ##### Add to your project
 ```
-const range = require('rangejs');
+const range = require('pyrange');
 ```
 
 ```
-import range from 'rangejs';
+import range from 'pyrange';
 ```
 ### Usage
 ```
@@ -42,6 +42,6 @@ range(1,5,2)  // [1,3]
 ```
 
 ### Support
-If you find any problems feel free to tweet @robiXxu, email at schiriac.robert@gmail.com or [open a issue](https://github.com/robiXxu/rangejs/issues/new) on Github.
+If you find any problems feel free to tweet @robiXxu, email at schiriac.robert@gmail.com or [open a issue](https://github.com/robiXxu/pyrange/issues/new) on Github.
 
 ### [MIT License](LICENSE)

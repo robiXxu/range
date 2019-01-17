@@ -1,5 +1,5 @@
 {
-  "name": "rangejs",
+  "name": "pyrange",
   "version": "0.0.1",
   "description": "Javascript version of Python range",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robiXxu/rangejs.git"
+    "url": "git+https://github.com/robiXxu/pyrange.git"
   },
   "keywords": [
     "range",
@@ -24,9 +24,9 @@
   "author": "Schiriac Robert <schiriac.robert@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/robiXxu/rangejs/issues"
+    "url": "https://github.com/robiXxu/pyrange/issues"
   },
-  "homepage": "https://github.com/robiXxu/rangejs#readme",
+  "homepage": "https://github.com/robiXxu/pyrange#readme",
   "devDependencies": {
     "jest": "^23.6.0",
     "np": "^3.1.0",

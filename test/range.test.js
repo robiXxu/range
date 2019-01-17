@@ -41,10 +41,10 @@ describe('Test range functionality', () => {
 
 describe('Test range calls with wrong params', () => {
   test('calling range() (with 0 arguments) should throw "Wrong number of arguments, expected 1..3 arguments got 0."', () => {
-    expect(() => range()).toThrow('[rangejs]: Wrong number of arguments, expected 1..3 arguments got 0.')
+    expect(() => range()).toThrow('[pyrange]: Wrong number of arguments, expected 1..3 arguments got 0.')
   });
 
   test('calling range("2") should throw "One or more arguments are not of type number."',() => {
-    expect(() => range("2")).toThrowError("[rangejs]: One or more arguments are not of type number.");
+    expect(() => range("2")).toThrowError("[pyrange]: One or more arguments are not of type number.");
   });
 });
