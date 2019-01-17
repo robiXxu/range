@@ -4,8 +4,12 @@
   "description": "Javascript version of Python range",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "devtest": "jest --watchAll"
+    "test": "jest --coverage --verbose",
+    "test:watch": "jest --watchAll",
+    "release": "np --any-branch"
+  },
+  "engines": {
+    "node": ">= 6.9.0"
   },
   "repository": {
     "type": "git",
@@ -24,6 +28,8 @@
   },
   "homepage": "https://github.com/robiXxu/rangejs#readme",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "np": "^3.1.0",
+    "pre-commit": "^1.2.2"
   }
 }
