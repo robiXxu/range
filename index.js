@@ -13,6 +13,15 @@ const validateArgs = (args) => {
   }
 }
 
+
+/**
+ * Usage:
+ ** range(stop)
+ ** range(start, stop, [step])
+ *
+ * Argument types: 
+ ** range(start?: number, stop: number, step?: number)
+ */
 const range = (...args) => {
   validateArgs(args);
   let [start, stop, step] = args;
