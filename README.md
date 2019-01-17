@@ -8,11 +8,11 @@ npm install range
 
 ##### Add to your project
 ```
-const range = require('range');
+const range = require('@robixxu/range');
 ```
 
 ```
-import range from 'range';
+import range from '@robixxu/range';
 ```
 ### Usage
 ```
