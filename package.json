@@ -1,5 +1,5 @@
 {
-  "name": "pyrange",
+  "name": "@robixxu/range",
   "version": "0.0.1",
   "description": "Javascript version of Python range",
   "main": "index.js",
@@ -13,20 +13,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robiXxu/pyrange.git"
+    "url": "git+https://github.com/robiXxu/range.git"
   },
   "keywords": [
     "range",
     "python",
     "range",
-    "pyrange"
+    "range"
   ],
   "author": "Schiriac Robert <schiriac.robert@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/robiXxu/pyrange/issues"
+    "url": "https://github.com/robiXxu/range/issues"
   },
-  "homepage": "https://github.com/robiXxu/pyrange#readme",
+  "homepage": "https://github.com/robiXxu/range#readme",
   "devDependencies": {
     "jest": "^23.6.0",
     "np": "^3.1.0",
