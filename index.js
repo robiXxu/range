@@ -9,8 +9,7 @@ const validateArgs = (args) => {
   }
 
   if( !args.every(arg => !isNaN(arg) && typeof(arg) === "number" && arg.toString(32).indexOf('.') === -1) ) {
-    throw "test";
-    // throw `${prefix} One or more arguments are not of type number.`;
+    throw `${prefix} One or more arguments are not of type number.`;
   }
 }
 
