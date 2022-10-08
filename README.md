@@ -3,7 +3,7 @@ Javascript version of Python range
 
 ### Install
 ```
-npm install range
+npm install @robixxu/range
 ```
 
 ##### Add to your project
